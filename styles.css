@@ -46,7 +46,7 @@ body {
   
 }
 
-.mission-text {
+.mission-text, .featured-text {
     font-family: Arial, Helvetica, sans-serif;
     color: azure;
     width: 100%;
