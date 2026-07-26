@@ -7,6 +7,13 @@ nav {
 
 }
 
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .container {
     display: flex;
 }
@@ -53,4 +60,53 @@ body {
     background-color: black;
     color: azure;
     text-align: center;
+}
+
+
+.photos {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.tea-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.locations {
+    height: 500px;
+    background-image: url("photos/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 40px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.location-title {
+    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.location-cards {
+    display: flex;
+    gap:40px;
+}
+
+
+.location-card {
+    background-color: black;
+    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    text-align: center;
+    gap:40px;
+    border-radius: 10px;
 }
